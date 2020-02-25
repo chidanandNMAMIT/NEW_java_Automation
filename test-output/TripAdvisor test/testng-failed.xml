@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TripAdvisor test]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="url" value="https://www.tripadvisor.in"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.tripa.qa.TestPages.SearchPage_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="search_Test"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.tripa.qa.TestPages.SearchPage_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TripAdvisor test] -->
